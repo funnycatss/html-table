@@ -7,12 +7,205 @@
     <title>Sample form</title>
 </head>
 <body>
-    
-    
-    <form method="POST">
-        <input type="text" name="client-name"/>
-        <input type="submit"/>
-        
+    <h1 align="center" style="color:green">Опросник: Использование медицинских препаратов </h1>
+    <br>
+    <br>
+    <select name="D1" size="1">
+    <option selected value="Отлично">Отлично</option>
+    <option value="Хоорошо">Хорошо</option>
+    <option value="Удовлетворительно">Удовлетворительно</option>
+    <option value="Неудовлетворительно">Неудовлетворительно</option>
+    </select>
+    <h2> 1. Отметьте, пожалуйста, ваш пол:</h2>
+    <br>
+    <br>
+    <lable>
+    <input type="radio" name="client-gender" value="мужской"/>
+    Мужской
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-gender" value="Женский"/>
+    Женский
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-gender" value="Другое_________________"/>
+    Другое_________________
+    </lable>
+    <br>
+    <br>
+    <h1>2.Сколько вам полных лет:</h1>
+    <br>
+    <br>
+    <form>
+        <input type="text" name="цифри"/>
     </form>
+    <br>
+    <br>
+    <h2> 3. Какие из перечислены симптомов беспокоили вас на протяжении последних 3 месяцев?</h2>
+    <br>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Мигрень"/>
+    Мигрень
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-gender" value="Боль в мышцах"/>
+    Боль в мышцах
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Боль в суставах"/>
+    Боль в суставах
+     </label>
+     <br>
+    <label>
+    <input type="radio" name="client-answer" value="Боль в спине"/>
+    Боль в спине
+    </label>
+     <br>
+    <label>
+    <input type="radio" name="client-answer" value="Жар"/>
+    Жар
+    </label>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Другое__________________________"/>
+    Другое_______________________
+    </lable>
+    <br>
+    <br>
+    <h2> 4.Что из следующего ви предпринимали в течении последних 3 месяцев чтобы облегчить или снять любой из видов боли, от которых вы страдали?</h2>
+    <br>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Применял устройство (Например: пояс, бандаж, другое)"/>
+    Применял устройство (Например: пояс, бандаж, другое)
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-gender" value="Применял натуральние гомеопатические средства"/>
+    Применял натуральние гомеопатические средства
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Применял что-то другое ( Например: иглоукаливание, физиотерапия, масаж)"/>
+    Применял что-то другое ( Например: иглоукаливание, физиотерапия, масаж)
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Применял лекарственные средства(Например: лекарства, таблетки, уколы)"/>
+    Применял лекарственные средства(Например: лекарства, таблетки, уколы)
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Другое____________________"/>
+    Другое____________________
+    </lable>
+    <br>
+    <br>
+    <h2>5.Кто из членов вашей семьи совершает покупки данных медицинских препаратов?</h2>
+    <br>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Вы"/>
+    Вы
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Другой члена вашей семьи"/>
+    Другой члена вашей семьи
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Ваши родственники"/>
+    Ваши родственники
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Другое____________________"/>
+    Другое_________________________
+    </lable>
+    <br>
+    <br>
+    <h2> 6. Кто влияет на выбор способа лечения, или выбор лекарственного средства которое вы будете применять?</h2>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Вы"/>
+    Вы
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Другой член семьи"/>
+    Другой член семьи
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Родственники"/>
+    Родственники
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Врач"/>
+    Врач
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Фармацевт"/>
+    Фармацевт
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Другое_______________"/>
+    Другое___________________
+    </lable>
+    <br>
+    <br>
+    <h2>7.Если сложить общий семейный доход за месяц всех членов вашей семьи, которые в данный момент проживает вместе с вами его можно описать:</h2>
+    <br>
+    <br>
+    <lable> 
+    <input type="radio" name="client-answer" value="До 5000грн."/>
+    До 5000грн.
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="До 10 000грн."/>
+    До 10 000грн.
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="До 15 000грн."/>
+    До 15 000грн.
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="До 20 000грн."/>
+    До 20 000грн.
+    </lable>
+    <br>
+    <lable>
+    <input type="radio" name="client-answer" value="Выше 20 000грн."/>
+   Выше 20 000грн.
+    </lable>
+    <br>
+    <br>
+    <form method="get">
+        <lable>Ваше имя:
+        <input type="text" name="Ваше имя"/>
+        </lable>
+        <lable>
+            <lable for="client-email">Ваш e-mail</lable>
+            <input type="email" name="Ваш e-mail" id="Ваш-email/>
+        </lable>
+        <br>
+        <input type="submit">
+    </form>
+    <br>
+    <br>
+    
+    
 </body>
 </html>
